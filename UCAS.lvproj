@@ -10,7 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../../Labview/Untitled 1.vi"/>
+		<Item Name="Engines" Type="Folder">
+			<Item Name="TopLevel.vi" Type="VI" URL="../Engines/TopLevel.vi"/>
+		</Item>
+		<Item Name="UI" Type="Folder"/>
+		<Item Name="Compiler.vi" Type="VI" URL="../Compiler.vi"/>
+		<Item Name="Splash.vi" Type="VI" URL="../Splash.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
@@ -43,7 +48,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{12DE82BC-889C-4C3D-A6EA-15C325635A77}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Untitled 1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Compiler.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
